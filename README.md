@@ -1,5 +1,6 @@
 # Luminus
 Jeu réalisé lors de la #CasemateJam à Grenoble
+*(Superbes) graphismes de Lisa Rauch*
 
 ### Consigne
 Lancer `index.html` dans le navigateur (testé sous Safari avec un iPad Air sous iOS 8)
