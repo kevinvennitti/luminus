@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  
+  <link rel="stylesheet" href="css.css" />
+  
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1,minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon" href="icon.png" />
+	
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="hammer.min.js"></script>
+	<script type="text/javascript" src="jquery.hammer.js"></script>
+	
+	<script type="text/javascript" src="transit.js"></script>
+  <script type="text/javascript" src="js.js"></script>
+  
+  <title>Luminus</title>
+
+</head>
+
+<body id="body" class="logo">
+  
+  <main>
+  
+    <section id="lvla">
+      <div class="craftSpot" style="top:442px;left:455px"></div>
+      
+      <div class="inner">
+        <img id="ObjRobot" class="catchThis"  src="img/N1/ObjRobot.svg">
+        <img id="ObjOs" class="catchThis"     src="img/N1/ObjOs.svg">
+        <img id="ObjCable" class="catchThis"  src="img/N1/ObjCable.svg">
+        <img id="ObjJedi" class="catchThis"  src="img/N1/ObjJedi.svg">
+        <img id="ObjLED" class="catchThis"  src="img/N1/ObjLED.svg">
+        <img id="ObjPile" class="catchThis"  src="img/N1/ObjPile.svg">
+        <img id="ObjSablier" class="catchThis"  src="img/N1/ObjSablier.svg">
+        <img id="ObjSilex" class="catchThis"  src="img/N1/ObjSilex.svg">
+        
+        <img src="img/N1/Fissure4.png" style="position:absolute;width: 250px;height: 160px;left: 160px;top: 160px;">
+        
+        <div class="breakThis">
+          <img id="ObjAmpoule" class="catchThis"  src="img/N1/ObjAmpoule.svg">
+          <img src="img/N1/Fissure3.png">
+          <img src="img/N1/Fissure2.png">        
+          <img src="img/N1/Fissure1.png">        
+        </div>
+      </div>
+      
+      <div id="flammeWin">
+        <img src="img/N1/Flamme.png" id="flamme">
+        <img src="img/N1/FlammeFlash.png" id="flammeFlash">
+      </div>
+      
+    </section>
+    
+    
+    
+  
+    <section id="lvlb">
+      <div class="craftSpot" style="top: 219px;left: 362px;"></div>
+      
+      <div class="inner">
+        <img id="ObjBougie" class="catchThis"   src="img/N2/ObjBougie.svg">
+        <img id="ObjPanneau" class="catchThis"  src="img/N2/ObjPanneau.svg">
+        <img id="ObjFeuilles" class="catchThis" src="img/N2/ObjFeuilles.svg">
+        <img id="ObjTapis" class="draggable"   src="img/N2/ObjTapis.svg">
+        <img id="DecorTable" class=""    src="img/N2/DecorTable.svg">
+        <img id="DecorBureau" class=""    src="img/N2/DecorBureau.svg">
+        <img id="ObjBranches" class="catchThis" src="img/N2/ObjBranches.svg">
+        <img id="ObjCristal" class="catchThis"  src="img/N2/ObjCristal.svg">
+        <img id="ObjLivre" class="catchThis"    src="img/N2/ObjLivre.svg">
+        <img id="ObjMassue" class="catchThis"   src="img/N2/ObjMassue.svg">
+        <img id="ObjRouages" class="catchThis"  src="img/N2/ObjRouages.svg">
+        
+        <img id="DecorFauteuil" class="" src="img/N2/DecorFauteuil.svg">
+        
+      </div>
+    </section>
+  
+  </main>
+  
+  <div id="blackscreen"></div>
+  <div id="pion" class="draggablePion"></div>
+  
+  <div id="spots">
+  </div>
+  
+  
+  <div id="HUD">
+    <div id="pionEntree" class="pionZone"></div>
+    <div id="pionSortie" class="pionZone"></div>
+    
+    <div id="foregroundCatchThis">
+      <div class="inner"></div>
+    </div>
+    
+    <div id="callForegroundCatchThis"></div>
+  </div>
+  
+  
+  <div id="transitionscreen">
+    <div class="section" id="startlogo"></div>
+    <div class="section" id="startlvla"></div>
+    <div class="section" id="startlvlb"></div>
+  </div>
+  
+    <div class="spotCorner" style="top:20px;left:645px" id="spotStart"></div>
+    <div class="spotCorner" style="top:885px;left:20px" id="spotEnd"></div>
+  
+  
+    
+    
+    <div id="dev" style="display:none;position:fixed;top:0;left:0;background:silver;color:black;width:100%;height:40px;"></div>
+    
+
+    
+    
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="159.453px"
+	 height="193.044px" viewBox="0 0 159.453 193.044" enable-background="new 0 0 159.453 193.044" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  height="16383" width="16383" x="-7127" y="-9010" bottomLeftOrigin="true"></sliceSourceBounds>
+		<optimizationSettings>
+			<targetSettings  fileFormat="PNG24Format" targetSettingsID="0">
+				<PNG24Format  transparency="true" filtered="false" matteColor="#FFFFFF" noMatteColor="false" interlaced="false">
+					</PNG24Format>
+			</targetSettings>
+		</optimizationSettings>
+	</sfw>
+</metadata>
+<g id="Calque_7" display="none">
+</g>
+<g id="Calque_3" display="none">
+	<polygon display="inline" fill="#130F12" points="94.318,-245.396 159.506,-173.445 289.338,-132.28 312.453,-71.476 
+		370.346,36.639 511.359,99.75 627.453,99.75 627.453,-245.25 	"/>
+</g>
+<g id="N_x26_B" display="none">
+</g>
+<g id="Calque_8">
+</g>
+<g id="Calque_11">
+</g>
+<g id="Calque_9" display="none">
+</g>
+<g id="Calque_10">
+	<g>
+		<polygon fill="#6E788F" points="126.453,137.75 149.992,137.75 159.453,137.75 159.453,121.75 132.953,114.75 159.453,80.75 
+			159.453,49.75 125.993,49.75 89.995,80.609 79.496,21.25 61.953,0 39.453,29.75 39.453,80.75 7.499,91.234 0,114.691 
+			13.499,127.75 52.453,127.75 40.498,168.75 50.997,191.75 63.953,183.25 79.727,137.25 97.495,191.75 127.493,193.044 
+			132.953,172.823 		"/>
+		<polygon fill="#969EA8" points="39.453,29.75 61.953,0 79.496,21.25 59.475,32.417 59.12,101.75 39.453,80.75 		"/>
+		<polygon fill="#969EA8" points="125.993,49.75 89.995,80.609 159.453,49.75 		"/>
+		<polygon fill="#969EA8" points="89.727,81.083 59.12,101.75 79.727,137.25 109.12,108.417 		"/>
+		<polygon fill="#969EA8" points="79.727,137.25 126.453,137.75 109.12,108.417 		"/>
+		<polyline fill="#969EA8" points="97.495,191.75 127.493,193.044 132.953,172.823 79.727,137.25 		"/>
+		<polygon fill="#969EA8" points="0,114.691 59.12,101.75 7.499,91.234 		"/>
+	</g>
+</g>
+<g id="Texture">
+</g>
+<g id="Repères" display="none">
+</g>
+<g id="Masque">
+</g>
+<g id="Masque_écran" display="none">
+</g>
+</svg>

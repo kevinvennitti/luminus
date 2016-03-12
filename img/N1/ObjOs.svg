@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="201.734px"
+	 height="93.18px" viewBox="0 0 201.734 93.18" enable-background="new 0 0 201.734 93.18" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="16383" height="16383" x="-7127" y="-9010" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="Calque_7">
+</g>
+<g id="Calque_3">
+	<polygon fill="#6E788F" points="27.432,60.822 164.949,19.903 170.478,0.647 181.984,0 189.284,3.629 189.771,12.26 
+		197.037,14.687 201.734,23.13 199.719,36.519 186.054,40.683 180.037,37.168 160.475,38.269 33.877,78.224 29.05,89.577 
+		17.334,93.18 7.675,86.854 6.962,74.196 0.713,69.931 0,57.272 6.577,52.862 17.937,50.491 	"/>
+</g>
+<g id="feu" display="none">
+</g>
+<g id="N_x26_B" display="none">
+</g>
+<g id="Texture">
+</g>
+<g id="Repères" display="none">
+</g>
+<g id="Masque" display="none">
+	<path display="inline" d="M-2949.445-1018.388v2648h3496v-2648H-2949.445z M-226.445,1026.612h-2128v-1636h2128V1026.612z"/>
+</g>
+<g id="Masque_écran" display="none">
+	<path display="inline" fill="#080808" d="M-2605.445-805.388v2001h2633v-2001H-2605.445z M-285.445,974.612h-2008v-1536h2008
+		V974.612z"/>
+</g>
+</svg>

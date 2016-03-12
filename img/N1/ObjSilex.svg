@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="58px" height="77px"
+	 viewBox="0 0 58 77" enable-background="new 0 0 58 77" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="16383" height="16383" y="-9010" x="-7127" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="Calque_7">
+</g>
+<g id="feu">
+</g>
+<g id="N_x26_B" display="none">
+</g>
+<g id="Calque_10">
+</g>
+<g id="Calque_3">
+	<g>
+		<polygon fill="#969EA8" points="0,56 0,34 16,20.909 58,0 58,56 29,77 11.922,71 		"/>
+		<polygon fill="#4D5E70" points="55,13 46.168,22.333 50.416,33.667 41.5,42.5 43.25,53.5 34,57 31.5,72 55,53.667 		"/>
+		<polygon fill="#F2F2F2" points="8,50 8,39 36.001,21 26.667,42.5 		"/>
+	</g>
+</g>
+<g id="Repères" display="none">
+</g>
+<g id="Masque" display="none">
+	<path display="inline" d="M-2451-2v2648h3496V-2H-2451z M272,2043h-2128V407H272V2043z"/>
+</g>
+<g id="Masque_écran" display="none">
+</g>
+<g id="sac_fermé">
+</g>
+<g id="Texture">
+</g>
+<g id="Texture_-_copie">
+</g>
+</svg>

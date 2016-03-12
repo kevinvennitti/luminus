@@ -1,0 +1,701 @@
+/*html {
+  -webkit-transform: rotateZ(-90deg);
+  -webkit-transform-origin:0 0
+;
+  top: 768px;
+  left: 0;
+  position: absolute;
+}
+*/
+
+html, body {
+  margin:0;
+  padding:0;
+  width:768px;
+  height:1004px;
+  overflow:hidden;
+  background:black
+}
+
+main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 768px;
+  height: 1004px;
+}
+
+#HUD {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 768px;
+  height: 1004px;
+  pointer-events:none;
+}
+
+#spots {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 828px;
+  height: 1064px;
+  pointer-events:none;
+}
+
+.lvla #spots {
+  background:url(img/N1/Spots.png) no-repeat center center;
+}
+
+.lvlb #spots {
+  background:url(img/N2/Spots.png) no-repeat center center;
+}
+
+#lvla {
+  background:url(img/N1/Fond.jpg) no-repeat center center
+}
+
+#lvlb {
+  background:url(img/N2/Fond.jpg) no-repeat center center / 100%
+}
+
+.lvla #lvla {display:block;}
+.lvlb #lvlb {display:block;}
+
+.lvlb #lvla {display:none;}
+.lvla #lvlb {display:none;}
+
+section {
+  width:828px;
+  height:1064px;
+  /*
+  width:768px;
+  height:1004px;
+  */
+  position:absolute;
+  left:-30px;
+  top:-30px;
+}
+
+#dev_point {
+  transition:all 600ms ease;
+}
+
+section img {
+  width:1064px;
+  height:828px;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.draggable {
+  position: absolute;
+  -webkit-transform-origin:center center;
+}
+
+      
+.draggable.leaf1 {
+  width: 26px;
+  height: 40px;
+  margin-left: -13px;
+  margin-top: -20px;        
+}
+      
+.draggable.leaf2 {
+  width: 48px;
+  height: 47px;
+  margin-left: -24px;
+  margin-top: -24px;        
+}
+
+      
+.draggable.rock {  
+  width: 45px;
+  height:77px;
+  margin-left: -22px;
+  margin-top: -38px;
+}
+
+      
+.catchThis#ObjRobot {
+  width: 60px;
+  height:77px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 700px;
+  left: 740px;
+  -webkit-transform: rotateZ(80deg);
+}
+
+
+      
+.catchThis#ObjOs {
+  width: 85px;
+  height: 40px;
+  margin-left: -42px;
+  margin-top: -38px;        
+  top: 930px;
+  left: 292px;
+}
+
+
+      
+.catchThis#ObjCable {
+  width: 105px;
+  height:77px;
+  margin-left: -52px;
+  margin-top: -38px;        
+  top: 300px;
+  left: 110px;
+}
+
+
+
+      
+#ObjTapis {
+  width: 300px;
+  height: 300px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 500px;
+  left: 220px;
+  -webkit-transform: rotateZ(80deg);
+}
+
+
+
+#pion {
+  width:500px;
+  height:500px;
+  margin:-1300px 0 0 -1300px;
+  border:solid 1050px rgba(0,0,0,.9);
+  position:absolute;
+  left:200px;
+  top:200px;
+  background:transparent;
+  border-radius:50%;
+  opacity:0;
+  display:block;
+  -webkit-transition:width 500ms linear,
+                     height 500ms linear,
+                     margin 500ms linear,
+                     border-width 500ms linear;
+/*
+  pointer-events:none;
+*/
+  box-shadow:inset 0 0 40px rgba(0,0,0,.9),
+             inset 0 0 50px rgba(0,0,0,.9),
+             inset 0 0 60px rgba(0,0,0,.9),
+             inset 0 0 70px rgba(0,0,0,.9),
+             inset 0 0 80px rgba(0,0,0,.9);
+}
+
+#pion.notListenToEvents {
+  pointer-events:none;
+}
+
+#pionEntree {
+  position:absolute;
+  top:0;
+  left:0;
+  width:150px;
+  height:150px;
+}
+
+#pionSortie {
+  position:absolute;
+  bottom:0;
+  right:0;
+  width:150px;
+  height:150px;
+}
+
+#blackscreen {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:836px;
+  height:1064px;
+  background:rgba(0,0,0,.9);
+  pointer-events:none;
+}
+
+#transitionscreen {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:836px;
+  height:1064px;
+  background:rgb(0,0,0);
+  pointer-events:none;
+}
+
+.catchThis {
+  position:absolute;
+  top:100px;
+  left:100px;
+  width:70px;
+  height:70px;
+}
+
+.refillThis {
+  position:absolute;
+  top:100px;
+  left:100px;
+  width:40px;
+  height:40px;
+}
+
+.breakThis {
+  position:absolute;
+  width: 250px;
+  height: 160px;
+  left: 160px;
+  top: 160px;
+}
+
+
+.breakThis img {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:auto
+}
+
+.catchThis.hide,
+.refillThis.hide {
+  -webkit-transform:scale(0) !important;
+  -webkit-transition:all 300ms ease;
+}
+
+#callForegroundCatchThis {
+  position:absolute;
+  top: 30px;
+  left: 34px;
+  width:80px;
+  height:80px;
+  background: url(img/lvla/Sac.svg) no-repeat 20px 28px / auto 50px;
+  pointer-events: all;
+  -webkit-transform:rotateZ(90deg);
+}
+
+#callForegroundCatchThis.active {
+  background: url(img/lvla/SacOuvert.svg) no-repeat 20px -5px / auto 80px;
+}
+
+#foregroundCatchThis {
+  position:absolute;
+  top:0px;
+  left: -160px;
+  width: 160px;
+  height:860px;
+  background:url(img/lvla/InvFond.png) no-repeat left center;
+  opacity: 1;
+  padding-left: 30px;
+  padding-top: 130px;
+  box-sizing: border-box;
+pointer-events: all;
+-webkit-transition:all 300ms ease;
+}
+
+#foregroundCatchThis.show {
+  left:0;
+}
+
+#foregroundCatchThis .inner {
+    width: 100%;
+    height: 100%;
+}
+
+#foregroundCatchThis .inner .catchThis {
+  position:relative;
+  top: auto;
+  left: auto;
+  margin: 0 0 20px 0;
+  
+  width: 90px;
+  height: 90px;
+}
+
+#foregroundCatchThis .inner img.active {
+  left:30px;
+}
+
+.craftSpot {
+  position:absolute;
+  border-radius:50%;
+  border:solid 20px white;
+  box-sizing:border-box;
+  
+  -webkit-animation:craftSpot 1000ms ease infinite;
+}
+
+@-webkit-keyframes craftSpot {
+  0%      { width:210px;height:210px;margin:25px;border:solid 0px transparent; }
+  50%      { border:solid 20px rgba(0,0,0,.4);}
+  
+  100%    { width:260px;height:260px;margin:0px; border:solid 0px transparent}
+}
+
+
+
+
+
+      
+.catchThis#ObjAmpoule {
+  width: 30px;
+  height: 45px;
+  margin-left: -15px;
+  margin-top: -22px;        
+  top: 80px;
+  left: 130px;
+  -webkit-transform: rotateZ(30deg);
+}
+
+      
+.catchThis#ObjJedi {
+  width: 65px;
+  height: 107px;
+  margin-left: -32px;
+  margin-top: -53px;        
+  top: 90px;
+  left: 460px;
+  -webkit-transform: rotateZ(-110deg);
+}
+      
+.catchThis#ObjLED {
+  width: 60px;
+  height:77px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 751px;
+  left: 370px;
+  -webkit-transform: rotateZ(80deg);
+}
+      
+.catchThis#ObjPile {
+  width: 60px;
+  height:77px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 440px;
+  left: 320px;
+  -webkit-transform: rotateZ(-90deg);
+}
+      
+.catchThis#ObjSablier {
+  width: 40px;
+  height: 57px;
+  margin-left: -20px;
+  margin-top: -28px;        
+  top: 780px;
+  left: 220px;
+  -webkit-transform: rotateZ(100deg);
+}
+      
+.catchThis#ObjSilex {
+  width: 60px;
+  height:77px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 250px;
+  left: 560px;
+  -webkit-transform: rotateZ(110deg);
+}
+
+      
+.catchThis#ObjBougie {
+  width: 60px;
+  height:77px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 390px;
+  left: 770px;
+  -webkit-transform: rotateZ(80deg);
+}
+
+
+      
+.catchThis#ObjBranches {
+  width: 170px;
+  height: 114px;
+  margin-left: -85px;
+  margin-top: -57px;        
+  top: 520px;
+  left: 130px;
+  -webkit-transform: rotateZ(80deg);
+}
+
+
+      
+.catchThis#ObjCristal {
+  width: 60px;
+  height:77px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 1000px;
+  left: 740px;
+  -webkit-transform: rotateZ(80deg);
+}
+
+
+      
+.catchThis#ObjFeuilles {
+  width: 120px;
+  height: 110px;
+  margin-left: -60px;
+  margin-top: -55px;        
+  top: 720px;
+  left: 270px;
+  -webkit-transform: rotateZ(80deg);
+}
+
+
+      
+.catchThis#ObjLivre {
+  width: 110px;
+  height: 100px;
+  margin-left: -55px;
+  margin-top: -50px;        
+  top: 530px;
+  left: 730px;
+  -webkit-transform: rotateZ(80deg);
+}
+
+
+      
+.catchThis#ObjMassue {
+  width: 70px;
+  height: 127px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 960px;
+  left: 440px;
+  -webkit-transform: rotateZ(-10deg);
+}
+
+
+      
+.catchThis#ObjPanneau {
+  width: 200px;
+  height: 167px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 140px;
+  left: 530px;
+  -webkit-transform: rotateZ(80deg);
+}
+
+
+      
+.catchThis#ObjResistance {
+  width: 60px;
+  height:77px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 700px;
+  left: 740px;
+  -webkit-transform: rotateZ(80deg);
+}
+
+
+      
+.catchThis#ObjRouages {
+  width: 60px;
+  height:77px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 150px;
+  left: 390px;
+  -webkit-transform: rotateZ(80deg);
+}
+
+      
+#DecorTable {
+  width: 200px;
+  height: 197px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 440px;
+  left: 600px;
+  -webkit-transform: rotateZ(80deg);
+}
+
+      
+#DecorFauteuil {
+  width: 270px;
+  height: 237px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 680px;
+  left: 540px;
+  -webkit-transform: rotateZ(110deg);
+}
+
+
+      
+#DecorBureau {
+  width: 453px;
+  height: 527px;
+  margin-left: -30px;
+  margin-top: -38px;        
+  top: 0;
+  left: 97px;
+  -webkit-transform: rotateZ(90deg);
+}
+
+
+
+
+
+#blackscreen, #pion, #transitionscreen {
+  display:block;
+}
+
+#transitionscreen { display:block; }
+
+.displayNone {
+  display: block;}
+
+
+
+
+
+
+
+.spotCorner {
+  position:absolute;
+  border-radius:50%;
+  border:solid 20px white;
+  box-sizing:border-box;
+  
+  -webkit-animation:spotCorner 1000ms ease infinite;
+  pointer-events: all;
+}
+
+@-webkit-keyframes spotCorner {
+  0%      { width:50px;height:50px;margin:25px;border:solid 0px transparent; }
+  50%      { border:solid 10px rgba(255,255,255,.4);}
+  
+  100%    { width:100px;height:100px;margin:0px; border:solid 0px transparent}
+}
+
+
+
+
+
+
+#spotStart, #spotEnd {
+  -webkit-transition:-webkit-transform 1000ms ease,
+                     background 1000ms ease;
+}
+
+#spotStart.active, #spotEnd.active {
+  -webkit-animation:none;
+  width:50px;
+  height:50px;
+  margin:25px;
+  border:solid 0px transparent;
+  -webkit-transform:scale(7);
+  background:rgba(255,255,255,.6)
+}
+
+.logo #spotEnd {
+  opacity:0
+}
+
+
+#spotEnd {
+  opacity:0;
+}
+
+.waiting #spotEnd {
+  opacity:0;
+}
+
+#spotStart {
+  opacity:0;
+}
+
+.waiting #spotStart {
+  opacity:1;
+}
+
+
+#startlogo {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:836px;
+  height:1064px;
+  background:black;
+  pointer-events:none;
+  background:url(img/TransitionAccueil.jpg) no-repeat center center;
+  background-size:cover;
+}
+
+
+#startlvla {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:836px;
+  height:1064px;
+  pointer-events:none;
+  opacity:0;
+  -webkit-transition:all 500ms ease;
+  background:url(img/TransitionCave.png) no-repeat center center;
+}
+
+
+#startlvlb {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:836px;
+  height:1064px;
+  background:black;
+  pointer-events:none;
+  opacity:0;
+  -webkit-transition:all 500ms ease;
+  background:url(img/TransitionLabo.png) no-repeat center center;
+}
+
+#flamme {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 485px;
+  left: 487px;
+}
+
+@-webkit-keyframes flamme {
+  0%, 100% { opacity:.7; }
+  18%, 44%, 66%, 93% { opacity:1; }
+  26%, 53%, 70%, 89% { opacity:.8; }
+}
+
+#flammeWin {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 862px;
+  height: 1064px;
+  display:none;
+}
+
+#flammeFlash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 835px;
+    height: 1064px;
+    -webkit-animation:flamme 2000ms ease infinite;
+}
