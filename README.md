@@ -4,7 +4,7 @@ Jeu réalisé lors de la #CasemateJam à Grenoble
 ### Consigne
 Lancer `index.html` dans le navigateur (testé sous Safari avec un iPad Air sous iOS 8)
 
-## Lancer la web app en plein écran
+### Lancer la web app en plein écran
 * Lancer `index.html` dans Safari
 * Puis `Partager`
 * Puis `Ajouter à l'écran d'accueil`
