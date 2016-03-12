@@ -1,6 +1,5 @@
 # Luminus
 Jeu réalisé lors de la #CasemateJam à Grenoble
-*(Superbes) graphismes de Lisa Rauch*
 
 ### Consigne
 Lancer `index.html` dans le navigateur (testé sous Safari avec un iPad Air sous iOS 8)
@@ -19,3 +18,6 @@ Si l'app n'est pas dans le bon sens, *mea culpa* :
 * Verrouiller la rotation
 * Puis ouvrir l'app depuis l'écran d'accueil
 * Tenir l'iPad en mode horizontal pour jouer
+
+### Crédits
+Lisa Rauch (*superbes* graphismes du jeu), Marion Couesnon (game design), Mathias Salanon et Laure Doucet (idéation), Kenza Doukhi (bêta testeuse), Kévin Vennitti (développement). Merci à Victor Chivers pour les sons et ambiances sonores.
